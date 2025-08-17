@@ -12,7 +12,7 @@ templates = Jinja2Templates(directory="templates")
 async def chat_page(request: Request):
     return templates.TemplateResponse("home.html", {"request": request})
 
-//API KEY GETS ADDED HERE PRIVATE FOR GIT HUB REPO
+//API KEY GETS ADDED HERE, PRIVATE FOR GIT HUB REPO
 
 chat_log = [{'role': 'system',
              'content': "You are Brooklyn's Chatbot. She made you in her personal project. She is pretty and awesome. Always keep your responses short, clear, and to the point. "}]
